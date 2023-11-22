@@ -20,7 +20,9 @@ public class LoginPage extends BasePage {
     public WebElement foodMenu;
 
 
-    @FindBy (link Text= "account-cart-wrapper""
+    @FindBy (linkText= "account")
+    public WebElement account;
+
     public void getFoodMenu() {
         foodMenu.click();
 
